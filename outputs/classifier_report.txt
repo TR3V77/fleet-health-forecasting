@@ -1,0 +1,15 @@
+Held-out classification report (25% test split, category predicted from description text)
+
+                      precision    recall  f1-score   support
+
+             Battery       0.96      0.81      0.88       151
+     Driver/Firmware       0.96      0.86      0.91       223
+    Hardware Failure       0.80      0.91      0.85       226
+Network/Connectivity       0.90      0.85      0.87       240
+               Other       0.98      0.88      0.93       102
+       Print Quality       0.96      0.86      0.91       178
+         Software/OS       0.77      0.94      0.85       257
+
+            accuracy                           0.88      1377
+           macro avg       0.90      0.87      0.89      1377
+        weighted avg       0.89      0.88      0.88      1377
