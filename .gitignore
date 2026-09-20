@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/*.csv
+data/*.db
+data/*.png
+data/*.pkl
+*.pbix
+*.pbix.bak
+.ipynb_checkpoints/

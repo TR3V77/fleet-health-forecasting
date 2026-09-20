@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: fleet
+      POSTGRES_USER: fleet
+      POSTGRES_PASSWORD: fleet
+    ports:
+      - "5432:5432"
+    volumes:
+      - fleet_pg_data:/var/lib/postgresql/data
+
+volumes:
+  fleet_pg_data:
